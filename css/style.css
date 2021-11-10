@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+
+body {
+  background: black;
+}
+
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #17d4fe;
+  font-size: 60px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  letter-spacing: 7px;
+}
+@media (min-width: 608px) and (max-width: 835px) {
+  .clock {
+    font-size: 40px;
+  }
+}
+@media (min-width: 517px) and (max-width: 608px) {
+  .clock {
+    font-size: 32px;
+  }
+}
+@media (min-width: 449px) and (max-width: 517px) {
+  .clock {
+    font-size: 26px;
+  }
+}
+@media (min-width: 280px) and (max-width: 449px) {
+  .clock {
+    font-size: 14px;
+  }
+}
